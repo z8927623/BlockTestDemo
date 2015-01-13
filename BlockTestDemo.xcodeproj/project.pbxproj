@@ -14,6 +14,7 @@
 		B8307EA71A64C20E007B0F3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8307EA61A64C20E007B0F3E /* Images.xcassets */; };
 		B8307EAA1A64C20E007B0F3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8307EA81A64C20E007B0F3E /* LaunchScreen.xib */; };
 		B8307EB61A64C20E007B0F3E /* BlockTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8307EB51A64C20E007B0F3E /* BlockTestDemoTests.m */; };
+		B8307EC11A64C21E007B0F3E /* MyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B8307EC01A64C21E007B0F3E /* MyBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B8307EAF1A64C20E007B0F3E /* BlockTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8307EB41A64C20E007B0F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8307EB51A64C20E007B0F3E /* BlockTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestDemoTests.m; sourceTree = "<group>"; };
+		B8307EBF1A64C21E007B0F3E /* MyBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBlock.h; sourceTree = "<group>"; };
+		B8307EC01A64C21E007B0F3E /* MyBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B8307E9E1A64C20E007B0F3E /* AppDelegate.m */,
 				B8307EA01A64C20E007B0F3E /* ViewController.h */,
 				B8307EA11A64C20E007B0F3E /* ViewController.m */,
+				B8307EBF1A64C21E007B0F3E /* MyBlock.h */,
+				B8307EC01A64C21E007B0F3E /* MyBlock.m */,
 				B8307EA31A64C20E007B0F3E /* Main.storyboard */,
 				B8307EA61A64C20E007B0F3E /* Images.xcassets */,
 				B8307EA81A64C20E007B0F3E /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8307EA21A64C20E007B0F3E /* ViewController.m in Sources */,
+				B8307EC11A64C21E007B0F3E /* MyBlock.m in Sources */,
 				B8307E9F1A64C20E007B0F3E /* AppDelegate.m in Sources */,
 				B8307E9C1A64C20E007B0F3E /* main.m in Sources */,
 			);

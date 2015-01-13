@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "MyBlock.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) MyBlock *myBlock1;
+
+@property (nonatomic, copy) void (^myBlock2)(int);
 
 @end
 
@@ -16,7 +21,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.myBlock1 = [[MyBlock alloc] init];
+    [_myBlock1 executeMyBlock:^(int num) {
+        // 在这里定义block并将block传给函数
+        NSLog(@"num is: %d", num);
+    }];
+    
+    self.myBlock2 = ^(int num){
+        // 在这里定义block
+        NSLog(@"num is: %d", num);
+    };
+    // 调用block
+    _myBlock2(2);
 }
 
 - (void)didReceiveMemoryWarning {
